@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 76px;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    width: 150px;
+    height: 76px;
+    margin-left: 3%;
+    background-color: aqua;
+}
+.navlinks{
+    width: 50%;
+    height: 76px;
+    background-color: aquamarine;
+    margin-left:30%;
+}
+
+.head{
+    background-color: beige;
+    height: 625px;
+    position: relative;
+}
+.head1{
+    background-color: rgb(200, 255, 0);
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+}
+.heading{
+    background-color: blue;
+    width: 25%;
+    height: 50px;
+}
+.para{
+    width: 70%;
+    height: 70px;
+    background-color: blueviolet;
+}
+.btn{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+}
+
+
+.head2{
+    width: 100%;
+    height: 608px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu {
+    width: 1200px;
+    height: 600px;
+    background-color: chartreuse;
+    display: flex;
+    margin-right: 15px;
+}
+.menu-box{
+    width: 600px;
+    height: 530px;
+    background-color: rgb(37, 144, 237);
+    border: 2px solid gray;
+}
+.menu-boxtwo{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(235, 102, 102);
+    
+}
+.box2{
+    width: 600px;
+    height: 300px;
+    background-color: cadetblue;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.menu-head {
+    width: 300px;
+    height: 50px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.menu-para{
+    width: 400px;
+    height: 100px;
+    background-color: chocolate;
+    margin-bottom: 10px;
+}
+.menu-btn{
+    width: 200px;
+    height: 50px;
+    background-color: thistle;
+}
+.menu-boxthree{
+    gap: 5px;
+}
+.menu-boxthree {
+    margin-top: 30px;
+}
+
+
+
+.mybox{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.new-box1{
+    width: 1200px;
+    height:100px ;
+    background-color: bisque;
+    margin-left: 10%;
+}
+.new-box2 {
+    width: 1219px;
+    height: 200px;
+    background-color: white;
+    margin-left: 146px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.cof-box {
+    width: 24%;
+    height: 185px;
+    background-color: blue;
+    margin: 0px 5px;
+}
+
+
+.threebox {
+    width: 80%;
+    height: 532px;
+    background-color: white;
+    margin: 0 auto;
+}
+.firstbox {
+    height: 100px;
+    background-color: rgb(255, 145, 11);
+    display: flex;
+    margin-right: 16px;
+}
+.secondbox {
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    /* margin-left: 120px; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+}
+.secbox {
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+    margin-right: 16px;
+    margin-top: 10px;
+}
+.thirdbox {
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+}
+.thibox{
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+.gallerybox{
+        width: 80%;
+        height: 532px;
+        background-color: white;
+        margin: 0 auto;
+    }
+.galbox1{
+    height: 100px;
+    background-color: rgb(255, 145, 11);
+    display: flex;
+    margin-right: 16px;
+}
+.galbox2{
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    /* margin-left: 120px; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+
+}
+.gsecbox{
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+    margin-right: 16px;
+    margin-top: 10px;
+}
+.galbox3{
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    /* margin-left: 120px; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+}
+.gthibox{
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.teambox{
+    width: 80%;
+        height: 532px;
+        background-color: white;
+        margin: 0 auto;
+}
+.teambox1{
+    height: 100px;
+    background-color: rgb(255, 145, 11);
+    display: flex;
+    margin-right: 16px;
+}
+.teambox2{
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    /* margin-left: 120px; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+
+}
+.tsecbox{
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+    margin-right: 16px;
+    margin-top: 10px;
+}
+.teambox3{
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    /* margin-left: 120px; */
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+
+}
+.tthibox{
+    width: 100%;
+    height: 192px;
+    background-color: rgb(255, 0, 162);
+    /* margin-left: 30px; */
+    /* margin-top: 5px; */
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.ftmain {
+    width: 1200px;
+    height: 100px;
+    background-color: bisque;
+    margin-left: 10%;
+}
+.foot {
+    width: 100%;
+    height: 608px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ftmenu {
+    width: 1200px;
+    height: 600px;
+    background-color: chartreuse;
+    display: flex;
+    margin-right: 15px;
+}
+.ftmenu-box {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(37, 144, 237);
+    border: 2px solid gray;
+}
+.ftmenu-boxtwo {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(235, 102, 102);
+}
+
+
+
+.ftnew-box2 {
+    width: 1219px;
+    height: 200px;
+    background-color: white;
+    margin-left: 146px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.ftcof-box {
+    width: 24%;
+    height: 185px;
+    background-color: blue;
+    margin: 0px 5px;
+}
+
+
+.fttable {
+    width: 570px;
+    height: 350px;
+    background-color: black;
+    margin: 2px 15px;
+}
+.fthead {
+    width: 376px;
+    height: 57px;
+    margin-left: 96px;
+    background-color: aqua;
+}
+.ftbox1 {
+    width: 285px;
+    height: 38px;
+    margin-top: 23px;
+    margin-left: 142px;
+    background-color: burlywood;
+}
+.ftbox2 {
+    width: 285px;
+    height: 38px;
+    margin-top: 23px;
+    margin-left: 142px;
+    background-color: burlywood;
+}
+.ftbox3 {
+    width: 285px;
+    height: 38px;
+    margin-top: 23px;
+    margin-left: 142px;
+    background-color: burlywood;
+}
+.ftabt {
+    width: 159px;
+    margin-top: 36px;
+    height: 41px;
+    background-color: yellowgreen;
+    margin-left: 204px;
+}
+
+
+
+.copyright {
+    width: 100%;
+    padding-top: 27px;
+    height: 50px;
+    background-color: black;
+}
+.cpy {
+    width: 29%;
+    height: 23px;
+    background-color: darkorange;
+    margin-left: 36%;
+}
